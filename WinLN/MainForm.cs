@@ -333,5 +333,11 @@ namespace com.jrfom.winln {
       }
     }
     #endregion
+
+    private void aboutLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
+      Form aboutForm = new AboutForm();
+
+      aboutForm.ShowDialog();
+    }
   }
 }
